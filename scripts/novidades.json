@@ -1,5 +1,10 @@
 ﻿[
     {
+        "texto":  "Instalação SQL",
+        "href":  "manuais/files/Instalação SQL.pdf",
+        "data":  "2025-10-22T09:06:34"
+    },
+    {
         "texto":  "Referência de objeto - erro",
         "href":  "faq/files/Referência de objeto - erro.pdf",
         "data":  "2025-10-17T10:55:28"
