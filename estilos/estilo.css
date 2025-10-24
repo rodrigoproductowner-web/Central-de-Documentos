@@ -244,20 +244,20 @@ main .passo {
 main .subpasso {
   display: block;
   margin-left: 30px; /* recuo à direita */
-  color: #333;
+  /*color: #333;*/
   font-size: 15px;
 }
 
 /* Ajuste de cor dos links dentro do main */
 main a {
-  color: #0066cc;
+  /*color: #0066cc;*/
   text-decoration: underline;
 }
 
-main a:hover {
+/*main a:hover {
   color: #004999;
 }
-
+*/
 /* ===== Melhorando alinhamento das linhas com checkbox ===== */
 main input[type="checkbox"] {
   vertical-align: middle;
