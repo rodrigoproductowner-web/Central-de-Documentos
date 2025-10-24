@@ -275,7 +275,7 @@ main .passo {
 
 main .passo input[type="checkbox"] {
   flex-shrink: 0; /* impede que o checkbox se mova */
-  margin-top: 3px;
+  margin-top: 6px;
 }
 
 main .passo span {
@@ -290,6 +290,7 @@ main .subpasso {
   color: #333;
   font-size: 15px;
   line-height: 1.5;
+  
 }
 
 
