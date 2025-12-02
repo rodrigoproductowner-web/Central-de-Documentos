@@ -1,5 +1,15 @@
 ﻿[
     {
+        "texto":  "Balanço - ajuste de estoque",
+        "href":  "manuais/files/Balanço - ajuste de estoque.pdf",
+        "data":  "2025-11-18T16:37:28"
+    },
+    {
+        "texto":  "PubliBackup",
+        "href":  "manuais/files/PubliBackup.pdf",
+        "data":  "2025-11-14T16:25:54"
+    },
+    {
         "texto":  "Configurando AppFoods no IIS",
         "href":  "manuais/files/Configurando AppFoods no IIS.pdf",
         "data":  "2025-10-30T11:56:23"
@@ -123,16 +133,6 @@
         "texto":  "PubliDash",
         "href":  "manuais/files/PubliDash.pdf",
         "data":  "2025-09-01T16:26:09"
-    },
-    {
-        "texto":  "Balanço - ajuste de estoque",
-        "href":  "manuais/files/Balanço - ajuste de estoque.pdf",
-        "data":  "2025-08-29T08:42:45"
-    },
-    {
-        "texto":  "PubliBackup",
-        "href":  "manuais/files/PubliBackup.pdf",
-        "data":  "2025-08-27T10:45:37"
     },
     {
         "texto":  "Download e Importação de XML de Terceiros",
