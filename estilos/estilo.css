@@ -174,7 +174,7 @@ h1 span::after {
   font-family: Arial, sans-serif;
   font-size: 10px;
   z-index: 1000;
-  border-radius: 8px;e 
+  border-radius: 8px; 
 }
 
 #novidades.novidades-box h3 {
@@ -222,7 +222,76 @@ h1 span::after {
   font-size: 0em;
 }
 
+/* ===== Estilo específico para a página de reinstalação ===== */
+main input[type="checkbox"] {
+  margin-right: 8px;
+  vertical-align: middle;
+}
 
+main {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Cada linha com checkbox */
+main label,
+main .passo {
+  display: block;
+  margin: 10px 0 6px 0;
+}
+
+/* Linhas de continuação sem checkbox */
+main .subpasso {
+  display: block;
+  margin-left: 30px; /* recuo à direita */
+  /*color: #333;*/
+  font-size: 15px;
+}
+
+/* Ajuste de cor dos links dentro do main */
+main a {
+  /*color: #0066cc;*/
+  text-decoration: underline;
+}
+
+/*main a:hover {
+  color: #004999;
+}
+*/
+/* ===== Melhorando alinhamento das linhas com checkbox ===== */
+main input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 8px;
+  transform: translateY(-1px); /* ajusta o alinhamento vertical */
+}
+
+/* Cria alinhamento de texto mesmo com quebra de linha */
+main .passo {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+main .passo input[type="checkbox"] {
+  flex-shrink: 0; /* impede que o checkbox se mova */
+  margin-top: 6px;
+}
+
+main .passo span {
+  flex: 1;
+  line-height: 1.5;
+}
+
+/* Subpassos (sem checkbox) */
+main .subpasso {
+  display: block;
+  margin-left: 30px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.5;
+  
+}
 
 
 
